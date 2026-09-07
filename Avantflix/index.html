@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvantFlix</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1>AvantFlix</h1>
+            <ul class="nav-menu">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="#" onclick="milista()">Mi Lista</a></li>
+                <div class="InputContainer">
+                    <input placeholder="Buscar Serie" id="input" class="input">
+                </div>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <img class="banner" src="img/Bannners/bocchi-the-rock-banner.jpg" alt="">
+        <section class="mov-fav" id="movie-fav"></section>
+        <section class="movie-container" id="movie-cont"></section>
+    </main>
+    <footer>
+        <section class="footer-info">
+            <h2>Contacto y Sugerencias</h2>
+            <p>&copy; 2024 AvantFlix. Todos los derechos reservados.</p>
+        </section>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
